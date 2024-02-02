@@ -1,0 +1,7 @@
+name: TelegramAuth
+main: me.huisos.TelegramAuth.TelegramAuth
+version: 1.0
+commands:
+   auth:
+      usage: /<command> - Authorize check
+      description: Authorizes the user by telegram nickname

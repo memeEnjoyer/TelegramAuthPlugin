@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>TelegramGetUserBot</groupId>
+  <artifactId>TelegramGetUserBot</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>TelegramGetUserBot</name>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <release>17</release>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <repositories>
+	  <repository>
+		  <id>telegrambots</id>
+		  <url>https://mvnrepository.com/artifact/org.telegram/telegrambots</url>
+	  </repository>
+	  <repository>
+		  <id>slf4j-simple</id>
+		  <url>https://mvnrepository.com/artifact/org.slf4j/slf4j-simple</url>
+	  </repository>
+	  <repository>
+		<id>telegramapi</id>
+		<url>https://mvnrepository.com/artifact/org.telegram/telegramapi</url>
+	</repository>
+  </repositories>
+  <dependencies>
+   <dependency>
+    <groupId>org.telegram</groupId>
+    <artifactId>telegrambots</artifactId>
+    <version>6.8.0</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>2.0.9</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+        <groupId>org.telegram</groupId>
+        <artifactId>telegramapi</artifactId>
+        <version>66.2</version>
+    </dependency>
+    <dependencies>
+</dependencies>
+</dependencies>
+</project>
